@@ -1,0 +1,25 @@
+
+.p{
+     
+}
+.card{border: 3px solid;
+    border-color: grey;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color:white;
+}
+.card-text{
+    color: black;
+    text-align: center;
+    
+}
+.card-body{
+    
+
+}
+.card:hover {
+    background-color:#5AED83;
+    border: 3px solid;
+    border-color: black;
+}
