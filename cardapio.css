@@ -27,5 +27,15 @@
 }
 .teste
 {
-    text-decoration: none;
+    margin-left: 3%;
+}
+.butao{
+    margin-left: 35%;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.butao:hover{
+    background-color:#5AED83; 
+   
 }
