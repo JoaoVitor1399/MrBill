@@ -10,14 +10,14 @@
 
 </head>
 <body>
-    <form name="meu_form" action="index2.html">
+    <form method="post"name="meu_form" action="index2.html">
 
         <h1>Entrar</h1>
-        <input type="email" id="emailid" placeholder="Email" name="email" />
+        <input type="email" id="emailid" placeholder="Email" name="email" required="required"/>
         <label for="email"></label>
       
-        <input type="text" id="senhaid" placeholder="Senha" name="senha" />
-        <label for="email"></label><br><br>
+        <input type="password" id="senhaid" placeholder="Senha" name="senha" required="required" autocomplete="current-password" />
+        <label for="senha"></label><br><br>
       
         <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
       </form>
