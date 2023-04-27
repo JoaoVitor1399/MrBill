@@ -1,6 +1,6 @@
 
 .p{
-     
+    
 }
 .card{border: 3px solid;
     border-color: grey;
@@ -39,7 +39,23 @@
     background-color:#5AED83; 
    
 }
+<<<<<<< HEAD
 hr{
     border-top: 1px solid red;
     
  }
+=======
+.hr-baixo{
+margin-top: 27%;
+border-top: 2px dotted;
+border-color: grey;
+font-weight: bold;
+}
+.hr-cima{
+    margin-top: 5px;
+    border-top: 2px dotted;
+    border-color: grey;
+    font-weight: bold;
+    }
+    
+>>>>>>> 3ec4861dbbc0416802c7944d0ae8bdda0f8e255b
