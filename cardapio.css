@@ -1,7 +1,5 @@
 
-.p{
-    
-}
+
 .card{border: 3px solid;
     border-color: grey;
     float: left;
@@ -10,6 +8,7 @@
     background-color:white;
    
 }
+
 .card-text{
     color: rgb(0, 0, 0);
     text-align: center;
@@ -18,13 +17,16 @@
 }
 
 
-.card:hover {
-    text-decoration: none;
+
+.card:hover , .card:focus{
+    
     background-color:#5AED83;
     border: 4px solid;
     border-color: black;
+   
     
 }
+
 .teste
 {
     margin-left: 3%;
