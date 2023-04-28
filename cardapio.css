@@ -18,7 +18,7 @@
 
 
 
-.card:hover , .card:focus{
+.card:hover{
     
     background-color:#5AED83;
     border: 4px solid;
@@ -53,4 +53,5 @@ font-weight: bold;
     border-color: grey;
     font-weight: bold;
     }
+    
     
