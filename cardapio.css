@@ -19,14 +19,16 @@
 
 
 .card:hover{
-    
+    transition: 0.3s ease-out;
     background-color:#5AED83;
     border: 4px solid;
     border-color: black;
-   
-    
+    transform: translateY(-20px);
 }
-
+.card:focus{
+    transform: translateY(-20px);
+    background-color: #5AED83;
+}
 .teste
 {
     margin-left: 3%;
@@ -54,4 +56,8 @@ font-weight: bold;
     font-weight: bold;
     }
     
+.bg-info{
+    background-color: #5AED83 !important;
     
+}
+
