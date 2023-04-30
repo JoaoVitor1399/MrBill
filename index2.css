@@ -1,5 +1,5 @@
 .navbar {
-  padding-bottom: ;
+
     background:  #5AED83;
 }
 
@@ -32,11 +32,20 @@
     text-shadow: 1px 1px 1px black;
     padding: 25px 5px;
     transition: 0.2s;
-    
-   
 }
 
-
+.nav-link {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  padding: 25px 5px;
+  transition: 0.2s;
+}
+.inicio {
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  padding: 25px 5px;
+  transition: 0.2s;
+}
  body{ 
     background-image: url(imagens/MrBill/index2.png);
     background-repeat:no-repeat ;
@@ -93,18 +102,37 @@
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+
+.inicio{
+  color:#000000;
+ 
+}
+
+.btn{ 
+  color: #e6dede !important;
+  background-color: #161616;
+}
+
+.marketing .col-sm { border-radius: 60px;
+ background-color: #5AED83;
   margin-bottom: 1.5rem;
   text-align: center;
+  margin-left: 3%;
 }
 .marketing h2 {
   font-weight: 400;
 }
-.marketing .col-lg-4 p {
+.marketing .col-sm  { 
   margin-right: .75rem;
   margin-left: .75rem;
 }
-
+.rounded-circle{
+  padding-top: 10px;
+}
+.col-sm:hover{ 
+  transition: 0.3s ease-out;
+  transform: translateY(-20px);
+}
 
 /* Featurettes
 ------------------------- */
