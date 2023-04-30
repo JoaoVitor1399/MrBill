@@ -1,9 +1,15 @@
-body {
+body { 
     font-family: Arial;
     font-size: 17px;
     padding: 8px;
   }
-  
+  img{
+    margin-left: 30%;
+max-width: 401px;
+max-height: 401px;
+float: right;
+  }
+  .produtos{}
   * {
     box-sizing: border-box;
   }
