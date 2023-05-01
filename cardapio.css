@@ -25,11 +25,12 @@
     border-color: black;
     transform: translateY(-20px);
 }
-.card:focus {
+.card:focus{
     transform: translateY(-20px);
     background-color: #5AED83;
     display: block;
 }
+
 
 .teste
 {
