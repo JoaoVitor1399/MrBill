@@ -170,3 +170,12 @@
     margin-top: 7rem;
   }
 }
+
+#home {
+  /*background-color: white;*/
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
